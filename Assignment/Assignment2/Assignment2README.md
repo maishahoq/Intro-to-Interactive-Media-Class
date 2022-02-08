@@ -10,4 +10,4 @@ The pattern art using rectangles: https://github.com/maishahoq/Intro-to-IM/blob/
 
 The pattern art using triangles: 
 
-The pattern art using circles:  
+The pattern art using circles:  https://github.com/maishahoq/Intro-to-IM/blob/main/Assignment/Assignment2/CirclePattern.mov 
