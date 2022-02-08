@@ -1,5 +1,5 @@
                                                                 
-                                                                PATTERN IN ANIME INTRO
+                                                          PATTERN IN ANIME INTRO
                                                                 
                                                                 
 The p5.js link to the art:https://editor.p5js.org/maishahoq/sketches/c76-B5Wvq
@@ -8,6 +8,6 @@ I tried incorporating the conditional statement, if-else, to fluctuate between t
 
 The pattern art using rectangles: https://github.com/maishahoq/Intro-to-IM/blob/main/Assignment/Assignment2/Screen%20Recording%202022-02-08%20at%209.24.20%20AM.mov
 
-The pattern art using triangles: 
+The pattern art using triangles:  https://github.com/maishahoq/Intro-to-IM/blob/main/Assignment/Assignment2/TrianglePattern.mov
 
 The pattern art using circles:  https://github.com/maishahoq/Intro-to-IM/blob/main/Assignment/Assignment2/CirclePattern.mov 
