@@ -14,4 +14,5 @@ The pattern art using circles:  https://github.com/maishahoq/Intro-to-IM/blob/ma
 
 Mathematical reasoning:
 functions used: sine function and cosine function
-Sine and cosine are alternating trigonometric functions that return smoother frequency values with the increase of angle. I needed a circular function that would increment and decrement with the increase of x or input, for a smoother transition of the overlapping shapes to make a systemic pattern. So, I used trigonometric functions instead of random().
+Sine and cosine are alternating trigonometric functions that return smoother frequency values with the increase of angle. I needed a circular function that would increment and decrement with the increase of x or input, for a smoother transition of the overlapping shapes to make a systemic pattern. So, I used trigonometric functions instead of random(). Also, I knew the mathematical output  of sine and cosine functions, so was easier for me to draft a probable output for the positioning of the overlapping shapes.
+incrementing variables: variables scalar and angle incremented linearly by a constant speed value in the loop, this ensured a linear motion of the shapes. 
