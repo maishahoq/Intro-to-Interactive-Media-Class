@@ -7,7 +7,7 @@ I was inspired by the early 2000s action animes, where the introduction would be
 I tried incorporating the conditional statement, if-else, to fluctuate between the shapes for pattern art incorporating the keyPressed function, butwas not successful.
 - __[pica](https://nodeca.github.io/pica/demo/)__ - high quality and fast image
 
-The pattern art using rectangles: [Rectangle Art] (https://github.com/maishahoq/Intro-to-IM/blob/main/Assignment/Assignment2/Screen%20Recording%202022-02-08%20at%209.24.20%20AM.mov/)
+The pattern art using rectangles: [Rectangle Art](https://github.com/maishahoq/Intro-to-IM/blob/main/Assignment/Assignment2/Screen%20Recording%202022-02-08%20at%209.24.20%20AM.mov)
 
 The pattern art using triangles:  https://github.com/maishahoq/Intro-to-IM/blob/main/Assignment/Assignment2/TrianglePattern.mov
 
