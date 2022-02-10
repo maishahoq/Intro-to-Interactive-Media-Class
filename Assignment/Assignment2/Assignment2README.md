@@ -3,6 +3,7 @@
  ___
 
 ---
+![Circle Art](https://github.com/maishahoq/Intro-to-IM/blob/main/Assignment/Assignment2/Screen%20Shot%202022-02-10%20at%203.40.51%20PM.png)  ![Triangle Art](https://github.com/maishahoq/Intro-to-IM/blob/main/Assignment/Assignment2/Screen%20Shot%202022-02-10%20at%203.43.40%20PM.png)  ![Rectangle Art](https://github.com/maishahoq/Intro-to-IM/blob/main/Assignment/Assignment2/Screen%20Shot%202022-02-10%20at%203.42.52%20PM.png)  
 
 ***                                                               
                                                                 
