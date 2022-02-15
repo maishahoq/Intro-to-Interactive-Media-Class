@@ -14,4 +14,6 @@ The bubles have a trasparent feauture because of how foggy and clody they are in
 
 #### Generative Pattern Art
 #### Encountered Problems
+
+I wanted to use the sine curve for the boundary of my headspace, and to also give off a structure of hair, but was not able to coordinate the translate function to the sine curve to get a diagonal hair structure or diagonally moving sine wave, so, used a line instead
 #### Reference
