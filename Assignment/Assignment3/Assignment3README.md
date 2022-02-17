@@ -79,6 +79,7 @@ I wanted to use the sine curve for the boundary of my headspace, and to also giv
 
 #### Reference
 Website to used for colors: [Color Picker](https://htmlcolorcodes.com/color-picker/)
+
 Mapping reference: [2.5: The map() Function](https://www.youtube.com/watch?v=nicMAoW6u1g)
 
 
