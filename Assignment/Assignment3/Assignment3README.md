@@ -13,11 +13,11 @@ The bubles have a trasparent feauture because of how foggy and clody they are in
 I used two quadrilaterals to cover up the front part and to give off an imagery of the bubbles coming out from the background of the head.
 My eyes are happy but I have an "ok" mouth shape because my head is all clouded with randomest ideas and thoughts.
 
-<img src="https://github.com/maishahoq/Intro-to-IM/blob/main/Assignment/Assignment3/273815152_470724207876264_2122613047034017782_n.jpg" alt="Inspiration" width="300"  style="float:middle"/> 
+<img src="https://github.com/maishahoq/Intro-to-IM/blob/main/Assignment/Assignment3/273815152_470724207876264_2122613047034017782_n.jpg" alt="Inspiration" width="300"  style="float:middle;"/> 
 #### Generative Pattern Art: 
 
 
-   <img src="https://github.com/maishahoq/Intro-to-IM/blob/main/Assignment/Assignment3/Screen%20Shot%202022-02-17%20at%205.54.17%20PM.png" alt="Shot-1" width="300" style="float:middle"/>         <img src="https://github.com/maishahoq/Intro-to-IM/blob/main/Assignment/Assignment3/Screen%20Shot%202022-02-17%20at%205.55.36%20PM.png" alt="Shot-2" width="300"  style="float:middle"/>  
+   <img src="https://github.com/maishahoq/Intro-to-IM/blob/main/Assignment/Assignment3/Screen%20Shot%202022-02-17%20at%205.54.17%20PM.png" alt="Shot-1" width="300" style="float:middle;"/>         <img src="https://github.com/maishahoq/Intro-to-IM/blob/main/Assignment/Assignment3/Screen%20Shot%202022-02-17%20at%205.55.36%20PM.png" alt="Shot-2" width="300"  style="float:middle;"/>  
 
 Since it's a generative art piece, I would recommend going to the p5.js link and enjoying the wane and wax of the bubbles, the way their pop in and then shrik and fluff up again, i.e smooth change in their sizes.
 
