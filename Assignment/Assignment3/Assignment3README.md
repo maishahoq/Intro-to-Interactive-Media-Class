@@ -12,7 +12,8 @@ I couldn't think of anything creative last week, and either from the stress of w
 The bubles have a trasparent feauture because of how foggy and clody they are in my head.
 ![Inspiration](https://github.com/maishahoq/Intro-to-IM/blob/main/Assignment/Assignment3/273815152_470724207876264_2122613047034017782_n.jpg)
 
-#### Generative Pattern Art: ]
+#### Generative Pattern Art: 
+
 #### Encountered Problems
 
 I wanted to use the sine curve for the boundary of my headspace, and to also give off a structure of hair, but was not able to coordinate the translate function to the sine curve to get a diagonal hair structure or diagonally moving sine wave, so, used a line instead
