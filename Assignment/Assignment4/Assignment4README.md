@@ -2,7 +2,7 @@
 
 
 
-                             Word Animation
+                                                       Word Animation
                                                   
                                                   
 The p5.js link to the art: [Word Animation](https://editor.p5js.org/maishahoq/sketches/uiitY2g2q)
