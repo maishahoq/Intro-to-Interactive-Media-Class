@@ -15,7 +15,7 @@ I wanted to create a word animation inspired from my Week-2 design, but instead 
 
 #### Generative Word Art: 
 
-
+The screen recording of the generative art : [Word Animation Video Recording](https://youtu.be/dzvVg-5OFR8)
    
 #### Code Snippets
 
