@@ -73,7 +73,8 @@ function alphabetTwirl() {
 
 #### Encountered Problems
 
-I wanted to implement disappear effect on the apbhabets, which I couln't.
+I wanted to implement disappear effect on the apbhabets, which I couln't. 
+I wanted the texts for "YOU" to grow in a certain direction, but couldn't control that.
 Also, the screens' shift from one to another was not smooth, and I tried hard to make the tansitions smoother, but to no avail.
 
 
