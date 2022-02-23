@@ -13,7 +13,7 @@ The p5.js link to the art: [Word Animation](https://editor.p5js.org/maishahoq/sk
 
 I wanted to create a word animation inspired from my Week-2 design, but instead of using shapes, I wanted to use alphabets seperately.
 
-#### Generative Pattern Art: 
+#### Generative Word Art: 
 
 
    
@@ -73,7 +73,8 @@ function alphabetTwirl() {
 
 #### Encountered Problems
 
-
+I wanted to implement disappear effect on the apbhabets, which I couln't.
+Also, the screens' shift from one to another was not smooth, and I tried hard to make the tansitions smoother, but to no avail.
 
 
 #### Reference
