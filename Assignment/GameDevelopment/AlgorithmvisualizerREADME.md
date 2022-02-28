@@ -25,9 +25,9 @@ I was learning different algorithms to make code efficient, which included short
 The game will have two parts: `1.` Algorithm Visualizer 
                               `2.` Algorithm Game
 
-__Algorithm Visualizer:__  This part of the game is instructional and was inspired from the assignment where we did generative art without any interaction from the user. So, there will be visualization of how the different sorting algorithm works based on which algorithm the user chooses.
+__Visualizer:__  This part of the game is instructional and was inspired from the assignment where we did generative art without any interaction from the user. So, there will be visualization of how the different sorting algorithm works based on which algorithm the user chooses.
 
-__Algorithm Game:__ This part of the game is interactive and was inspired from the assignment where we did generative art with interactions from the user. The user will be able to play the game and try out different algorithms by moving the objects on screen based                        
+__Game:__ This part of the game is interactive and was inspired from the assignment where we did generative art with interactions from the user. The user will be able to play the game and try out different algorithms by moving the objects on screen based                        
                               
 <img style="float:center;"  src="https://github.com/maishahoq/Intro-to-IM/blob/main/Assignment/Assignment3/273815152_470724207876264_2122613047034017782_n.jpg" alt="Inspiration" width="300"  /> 
 
