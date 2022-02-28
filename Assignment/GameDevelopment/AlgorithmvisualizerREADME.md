@@ -38,8 +38,7 @@ __Game:__ This part of the game is interactive and was inspired from the assignm
 
 ### Game Algorithm Explanation: 
 
-
-
+__Bubble Sort__
 
 <img style="float:center;"  src="https://github.com/maishahoq/Intro-to-IM/blob/main/Assignment/GameDevelopment/274702081_656210328936265_2267473470743547669_n.jpg" alt="Inspiration" width="300"  /> 
 
