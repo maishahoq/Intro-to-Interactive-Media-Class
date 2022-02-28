@@ -15,9 +15,9 @@ I was learning different algorithms to make code efficient, which included short
 The game will have two parts: `1.` Algorithm Visualizer 
                               `2.` Algorithm Game
 
-**Algorithm Visualizer: **
+__Algorithm Visualizer:__
 
-**Algorithm Game: **                             
+__Algorithm Game:__                           
                               
 <img style="float:center;"  src="https://github.com/maishahoq/Intro-to-IM/blob/main/Assignment/Assignment3/273815152_470724207876264_2122613047034017782_n.jpg" alt="Inspiration" width="300"  /> 
 #### Generative Pattern Art: 
