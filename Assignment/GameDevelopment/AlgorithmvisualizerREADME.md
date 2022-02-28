@@ -3,7 +3,7 @@
 
 ***     
 
-The p5.js link to the art: [Algorithm Game](https://editor.p5js.org/maishahoq/sketches/3w7Z017ey)
+The p5.js link to the game: [Algorithm Game](https://editor.p5js.org/maishahoq/sketches/3w7Z017ey)
 
 ***   
 
