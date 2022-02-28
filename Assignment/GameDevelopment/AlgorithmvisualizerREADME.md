@@ -38,6 +38,8 @@ __Game:__ This part of the game is interactive and was inspired from the assignm
 
 ### Game Algorithm Explanation: 
 
+
+__Bubble Sort:__ 
   
 
 
