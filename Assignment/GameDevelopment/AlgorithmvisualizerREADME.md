@@ -44,6 +44,8 @@ To keep Track:
 2. A rectangular base to hold the ball, to know that the ball has been placed in the right position.
 
 
+<img style="float:center;"  src="https://github.com/maishahoq/Intro-to-IM/blob/main/Assignment/GameDevelopment/Gallery/275072271_1370772470013205_8721016807671305824_n.jpg" alt="Inspiration" width="300"  /> 
+
 __Bubble Sort__
 
 <img style="float:center;"  src="https://github.com/maishahoq/Intro-to-IM/blob/main/Assignment/GameDevelopment/274702081_656210328936265_2267473470743547669_n.jpg" alt="Inspiration" width="300"  /> 
