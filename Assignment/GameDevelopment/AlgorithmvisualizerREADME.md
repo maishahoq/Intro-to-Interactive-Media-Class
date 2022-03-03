@@ -37,6 +37,12 @@ __Game:__ This part of the game is interactive and was inspired from the assignm
 
 
 ### Game Algorithm Explanation: 
+Ball Object: Here, the ball objects have a number attribute.
+
+To keep Track: 
+1. whether the i and i+1 th are swapped or not
+2. A rectangular base to hold the ball, to know that the ball has been placed in the right position.
+
 
 __Bubble Sort__
 
