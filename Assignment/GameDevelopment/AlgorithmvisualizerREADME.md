@@ -67,7 +67,12 @@ __Bubble Sort__
 
 ### Encountered Problems
 
+__1__. The balls were getting vanished behind the ball in my cursor:
 
+<img style="float:center;"  src="https://github.com/maishahoq/Intro-to-IM/blob/main/Assignment/GameDevelopment/Gallery/Screen%20Shot%202022-03-05%20at%2010.03.04%20AM.png" alt="Inspiration" width="300"  />                          <img style="float:center;"  src="https://github.com/maishahoq/Intro-to-IM/blob/main/Assignment/GameDevelopment/Gallery/Screen%20Shot%202022-03-05%20at%2010.03.20%20AM.png" alt="Inspiration" width="300"  />                                <img style="float:center;"  src="https://github.com/maishahoq/Intro-to-IM/blob/main/Assignment/GameDevelopment/Gallery/Screen%20Shot%202022-03-05%20at%2010.03.28%20AM.png" alt="Inspiration" width="300"  />   
+
+
+          Solution: Used "break" keyword inside the if statement of the forloop of mouse dragged to stop from taking any other ball when a ball has been selected.
 
 
 
