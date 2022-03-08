@@ -48,7 +48,8 @@ To keep Track:
 Best part about code: it is very less hard coded, so, just changing the no of balls variable (noBalls) you can change ball umber, box number etc.
 
 The algorithm for finding the corners of the box to reset the position value for balls:
-<img style="float:center;"  src=" " alt="Inspiration" width="500"  /> 
+<img style="float:center;"  src="https://github.com/maishahoq/Intro-to-IM/blob/main/Assignment/GameDevelopment/Gallery/275248506_662801645034607_2356488830949616720_n.jpg " alt="Sqcorner" width="500"  /> 
+
 
 
 
