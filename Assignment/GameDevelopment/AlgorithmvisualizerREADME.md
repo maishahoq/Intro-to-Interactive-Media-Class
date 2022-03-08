@@ -47,10 +47,6 @@ To keep Track:
 
 Best part about code: it is very less hard coded, so, just changing the no of balls variable (noBalls) you can change ball umber, box number etc.
 
-The algorithm for finding the corners of the box to reset the position value for balls:
-<img style="float:center;"  src="https://github.com/maishahoq/Intro-to-IM/blob/main/Assignment/GameDevelopment/Gallery/275248506_662801645034607_2356488830949616720_n.jpg " alt="Sqcorner" width="500"  /> 
-
-
 
 
 <img style="float:center;"  src="https://github.com/maishahoq/Intro-to-IM/blob/main/Assignment/GameDevelopment/Gallery/275072271_1370772470013205_8721016807671305824_n.jpg" alt="Inspiration" width="300"  /> 
@@ -60,6 +56,11 @@ The algorithm for finding the corners of the box to reset the position value for
 
 
 <img style="float:center;"  src="https://github.com/maishahoq/Intro-to-IM/blob/main/Assignment/GameDevelopment/Gallery/275042261_728017601908557_3536086805784017991_n.jpg" alt="Inspiration" width="500"  /> 
+
+
+
+The algorithm for finding the corners of the box to reset the position value for balls:
+<img style="float:center;"  src="https://github.com/maishahoq/Intro-to-IM/blob/main/Assignment/GameDevelopment/Gallery/275248506_662801645034607_2356488830949616720_n.jpg " alt="Sqcorner" width="500"  /> 
 
 
 __Bubble Sort__
