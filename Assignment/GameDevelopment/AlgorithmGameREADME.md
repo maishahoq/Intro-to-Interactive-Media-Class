@@ -112,7 +112,7 @@ __1__. The balls were getting vanished behind the ball in my cursor:
 Solution: Used "break" keyword inside the if statement of the forloop of mouse dragged to stop from taking any other ball when a ball has been selected.
 
 
-__2__
+__2__ I wanted the player to be able to do the whole game play and just click on one final submit button to check answer. But I couln't implement it and the player now needs to click on a swap button after bubble swapping has been been done once 
 
 
 
