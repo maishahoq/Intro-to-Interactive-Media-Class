@@ -119,6 +119,12 @@ __2__
 
 ### Future Additions
 
+__1__.  Adding an instruction animation using code. Due to lack of expertise and time commitment since I am overloading this semester and had a lot of exams and projects due at the same time, I could't do this before. I plan to add this during Spring Break.
+
+
+__2__. Add options of choosing from different algorithms like Insertion Sort, Quick Sort etc. But that might not work with the bubble design for bubble sort, so I will have to figure out a different design based on the sorting selected by the user.
+
+
 ### Reference
 
 
