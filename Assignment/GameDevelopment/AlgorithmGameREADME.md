@@ -420,6 +420,8 @@ Solution: Used "break" keyword inside the if statement of the forloop of mouse d
 __2__ I wanted the player to be able to do the whole game play and just click on one final submit button to check answer. But I couln't implement it and the player now needs to click on a swap button after bubble swapping has been been done once 
 
 
+__3__ The difficulty level 3 was not working. Even if I had sorted right, it was not succeeding. 
+
 
 
 ### Future Additions
