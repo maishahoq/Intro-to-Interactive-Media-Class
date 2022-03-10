@@ -88,6 +88,97 @@ If you win, I used a party themed background from the internet which I edited an
 ### Code Snippets: 
 
 
+```````````````````````````````````````````````
+//screen 0 of the game play
+function screen_0() {
+  randomSeed(rs);
+  time = (frameCount % frames) / float(frames);
+
+  //I want constant supply of bubbles
+  for (j = 0; j < 50; j++) {
+    bubblesArr[j].drawBubble(j);
+  }
+  theta += TWO_PI / frames;
+
+  push();
+  stroke("white");
+  push();
+  noStroke();
+  fill("black");
+  quad(0, 480, 280, 538, 300, 600, 0, 600);
+  quad(280, 538, 600, 480, 600, 600, 300, 600);
+  pop();
+  line(280, 538, 0, 480);
+  line(280, 538, 600, 480);
+  pop();
+
+  //my head
+  push();
+  noStroke();
+  fill("white");
+  circle(width / 2, 550, 95);
+  push();
+  strokeWeight(2);
+  stroke("black");
+  noFill();
+  arc(280, 538, 15, 15, PI, 0);
+  arc(320, 538, 15, 15, PI, 0);
+  line(282, 565, 315, 578);
+  pop();
+  pop();
+
+  fill("white");
+  textSize(25);
+
+  if (millis() / 1000 < 4) {
+    text("DO YOU HAVE BUBBLES", 80, 200);
+    text("IN YOUR HEADSPACE?", 200, 250);
+  } else if (millis() / 1000 < 8 && millis() / 1000 > 4) {
+    text("SORT THEM OUT IN ASCENDING ORDER ", 80, 200);
+    text("TO START THINKING CLEAR!!!", 150, 250);
+  } else {
+    textSize(40);
+
+    text("Press 'S' or 's' to start sorting", 65, 250);
+
+    textSize(20);
+    text("First Click on The Screen before Pressing the Key", 80, 300);
+  }
+}
+
+
+```````````````````````````````````````````````
+
+
+
+
+```````````````````````````````````````````````
+//screen 1 of the game play
+function screen_1() {
+  ///////////the box////////////////////////////////
+  background("220");
+  push();
+  rectMode(CENTER);
+  for (let i = 0; i < noBalls; i++) {
+    box[i].drawBox();
+    j = j + 100;
+  }
+  pop();
+  ///////////////////////////////////////////////////
+
+  for (j = 0; j < noBalls; j++) {
+    ball[j].drawBall();
+  }
+  submit();
+
+  let swapCtr = 0;
+  swapped();
+}
+
+```````````````````````````````````````````````
+
+
+
 
 ```````````````````````````````````````````````
 //Result Display Function
@@ -188,6 +279,27 @@ function checkAns() {
 
 ```````````````````````````````````````````````
 
+//function to change the position value of the objects
+function changeBallPos(m, ballX, ballY) {
+  
+  for (let o = 0; o < noBalls; o++) {
+    if (
+      ballX > box[o].Cor1.x &&
+      ballX < box[o].Cor2.x &&
+      ballY > box[o].Cor1.y &&
+      ballY < box[o].Cor3.y
+    ) {
+      //the psotion of the ball is the position of the box in the box array+1, cuz arrays starts from 0, but position starts from 1
+      ball[m].pos = o + 1;
+    }
+  }
+
+  move = move + 0.5;
+
+  if (move == noBalls - 1) {
+    period++;
+  }
+}
 
 
 ```````````````````````````````````````````````
