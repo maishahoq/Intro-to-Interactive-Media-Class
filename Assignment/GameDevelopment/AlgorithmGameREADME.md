@@ -234,6 +234,21 @@ function screen_1() {
   }
 ```````````````````````````````````````````````
 
+In order for my full song to play, I stopped the looping of the draw until it finishes
+```````````````````````````````````````````````
+//when song starts playing, looping of draw stops
+    if (ctrSong == 0) {
+      noLoop();
+      ohNo.play();
+      ctrSong = 1;
+    }
+
+    //when song stops playing, looping of draw starts
+    loop();
+    
+
+```````````````````````````````````````````````
+
 ```````````````````````````````````````````````
 
 //Sorts the array of balls based on position after user changed position
