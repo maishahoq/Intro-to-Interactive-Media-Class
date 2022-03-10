@@ -68,6 +68,21 @@ __Bubble Sort__
 <img style="float:center;"  src="https://github.com/maishahoq/Intro-to-IM/blob/main/Assignment/GameDevelopment/274702081_656210328936265_2267473470743547669_n.jpg" alt="Inspiration" width="300"  /> 
 
 
+__Win or Lose__
+
+If anybody loses the game, this screen comes up, I edited the image, very proud of the background, didn't want anything sa or rude or sassy, but also not happy and colorful. So, I used an acrylic effect to edit the yello background into this and then added text, to me, this background gave off a serious tone, to pass the emotion that it is sad as well as a little disappointing because the game is just sorting.
+
+
+<img style="float:center;"  src="https://github.com/maishahoq/Intro-to-IM/blob/main/Assignment/GameDevelopment/Gallery/pngtree-liquid-gold-with-rough-surface-texture-png-image_4355339.jpg" alt="Inspiration" width="300"  /> 
+
+
+If you win, I used a party themed background from the internet which I edited and it's below. 
+
+<img style="float:center;"  src="https://github.com/maishahoq/Intro-to-IM/blob/main/Assignment/GameDevelopment/Gallery/canvas.png" alt="Inspiration" width="300"  /> 
+
+
+
+
 
 
 ### Code Snippets: 
@@ -79,7 +94,9 @@ __Bubble Sort__
 
 
 ```````````````````````````````````````````````
-
++ Best Part of Code:
+      + Game Modification:   The user can change the change just by changing the values in some of the variables, this will modify the whole code without it breaking anywhere. Example, just changing the no of balls variable, changes the box numbers, places the balls in equal distances, changes the comparisons of positions etc. The values have been barely hardcoded.
+      + Resuse code from other assignments. I tried mofifying the one of the assignments to fit the game as an intro screen because the assignmnethas animation of balls to it.
 
 
 ### Encountered Problems
@@ -92,6 +109,12 @@ __1__. The balls were getting vanished behind the ball in my cursor:
 Solution: Used "break" keyword inside the if statement of the forloop of mouse dragged to stop from taking any other ball when a ball has been selected.
 
 
+__2__
+
+
+
+
+### Future Additions
 
 ### Reference
 
@@ -100,6 +123,10 @@ Solution: Used "break" keyword inside the if statement of the forloop of mouse d
 Website to used for colors: [Color Picker](https://htmlcolorcodes.com/color-picker/)
 
 Mapping reference: [2.5: The map() Function](https://www.youtube.com/watch?v=nicMAoW6u1g)
+
+
+Timer: [Timer using FrameCount](https://editor.p5js.org/marynotari/sketches/S1T2ZTMp-)
+
 
 
 
