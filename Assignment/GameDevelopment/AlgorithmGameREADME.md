@@ -90,10 +90,111 @@ If you win, I used a party themed background from the internet which I edited an
 
 
 ```````````````````````````````````````````````
-//class for bubbles
+//Result Display Function
+
+
+ //Result Display
+  if (notSwapped == 1) 
+  {
+    //I edited this image!! :-D
+    image(imgFail, 80, 80, 450, 450);
+    
+    //when song starts playing, looping of draw stops
+    if (ctrSong == 0) {
+      noLoop();
+      ohNo.play();
+      ctrSong = 1;
+    }
+
+    //when song stops playing, looping of draw starts
+    loop();
+    
+    
+    //counter to change the result message
+    ctrResult++;
+    if (ctrResult > 150) 
+    {
+      screen = 0;
+      notSwapped = 0;
+      reset();
+    }
+  } 
+  else if (notSwapped == 2) 
+  {
+    //I edited this image!! :-D
+    image(imgSuccess, 40, 80, 500, 450);
+
+    //when song starts playing, looping of draw stops
+    if (ctrSong == 0) {
+      noLoop();
+      applause.play();
+      ctrSong = 1;
+    }
+
+    //when song stops playing, looping of draw starts
+    loop();
+    //counter to change the result message
+    ctrResult++;
+    if (ctrResult > 150) {
+      screen = 0;
+      notSwapped = 0;
+      reset();
+    }
+  }
+```````````````````````````````````````````````
+
+```````````````````````````````````````````````
+
+//Sorts the array of balls based on position after user changed position
+function sortArrayPos() {
+  let n = ball.length;
+
+  //sorting the balls in the array based on their position value
+  for (let i = 0; i < n - 1; i++) {
+    for (let j = 0; j < n - i - 1; j++) {
+      if (ball[j].pos > ball[j + 1].pos) {
+        // swap arr[j+1] and arr[j]
+        let temporary = ball[j];
+        ball[j] = ball[j + 1];
+        ball[j + 1] = temporary;
+      }
+    }
+  }
+}
+
+
+//checks the final ball positions and compares it to the actually ascending order
+
+function checkAns() {
+  sortArrayPos();
+
+  for (let j = 0; j < ball.length - 1; j++) {
+    if (ball[j].value > ball[j + 1].value) {
+      print("Not Sorted \n");
+      notSwapped = 1;
+      break;
+    }
+  }
+
+  if (notSwapped != 1) {
+    //which means the swap by the user is correct
+    notSwapped = 2;
+  }
+}
+
 
 
 ```````````````````````````````````````````````
+
+```````````````````````````````````````````````
+
+
+
+```````````````````````````````````````````````
+
+
+
+
 + Best Part of Code:
 
          + Game Modification:   The user can change the change just by changing the values in some of the variables, this will modify the whole code without it breaking anywhere. Example, just changing the no of balls variable, changes the box numbers, places the balls in equal distances, changes the comparisons of positions etc. The values have been barely hardcoded.
@@ -135,6 +236,9 @@ Mapping reference: [2.5: The map() Function](https://www.youtube.com/watch?v=nic
 
 
 Timer: [Timer using FrameCount](https://editor.p5js.org/marynotari/sketches/S1T2ZTMp-)
+
+
+Audio Effects: [Oh No](https://mobcup.net/ringtone/oh-no-t6cf2k15/download/mp3)
 
 
 
