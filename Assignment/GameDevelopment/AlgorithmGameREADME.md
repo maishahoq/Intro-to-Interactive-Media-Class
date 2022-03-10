@@ -319,7 +319,84 @@ function changeBallPos(m, ballX, ballY) {
 
 ```````````````````````````````````````````````
 
+```````````````````````````````````````````````
+//function to make the 2D array which saves the bubble sorted steps in itself
 
+function createBubbleCompareArr() {
+  let n = ball.length;
+  let x = 0;
+  for (let i = 0; i < n - 1; i++) {
+    //let y=0;
+
+    for (let j = 0; j < n - i - 1; j++) {
+      if (randomNumArr[j] > randomNumArr[j + 1]) {
+        // swap arr[j+1] and arr[j]
+        let temporary = randomNumArr[j];
+        randomNumArr[j] = randomNumArr[j + 1];
+        randomNumArr[j + 1] = temporary;
+        bubblesort[x] = []; // create nested array
+        //we store the steps in the 1D array only when steps come
+        for (let y = 0; y < n; y++) {
+          bubblesort[x][y] = randomNumArr[y];
+        }
+        print("\n");
+        x++;
+      }
+    }
+  }
+}
+```````````````````````````````````````````````
+
+
+```````````````````````````````````````````````
+
+//to reset the arrays, the values etc.
+function reset()
+{
+  
+  
+  //resetting counters
+  print("in reset    " +q);q++;
+  ctrResult = 0;
+  ctrScreen0=0;
+  ctrSong=0;
+  //populating the random array with random numbers
+  for (let i = 0; i < noBalls; i++) {
+    //why do we not get rndom no.s everytime reset() gets called without q?
+    randomNumArr[i] = int(random(1, 50+q));
+    
+  }
+  
+  ///////////the ball////////////////////////////////
+  let ballCol = color(20, 150, 200);
+  j = 0;
+  for (let i = 0; i < noBalls; i++) {
+    ball[i] = new Ball(
+      width / 6 + j,
+      height / 3,
+      40,
+      ballCol,
+      randomNumArr[i],
+      i + 1
+    );
+    j += 100;
+  }
+  ///////////////////////////////////////////////////
+
+  ///////////the box////////////////////////////////
+  j = 0;
+  for (let i = 0; i < noBalls; i++) {
+    box[i] = new Box(width / 6 + j, height / 3, 60, "black");
+    j += 100;
+  }
+  ///////////////////////////////////////////////////
+
+  //calling the array which saves the bubble sorted steps in a 2D array
+  createBubbleCompareArr();
+}
+
+
+```````````````````````````````````````````````
 
 
 + Best Part of Code:
