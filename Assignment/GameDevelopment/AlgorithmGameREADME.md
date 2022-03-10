@@ -34,7 +34,7 @@ __Game:__ This part of the game is interactive and was inspired from the assignm
    + __Screen 1:__  [Screen 1](https://youtu.be/-dmTamqtpMo)
    
    + __Game Play (If I Win):__       [Game Play (If I Win)](https://youtu.be/h-hNwFqHEBo)
-   + __Game Play (If I Lose):__      [Game Play (If I Lose)](https://youtu.be/h-hNwFqHEBo)
+   + __Game Play (If I Lose):__      [Game Play (If I Lose)](https://youtu.be/bYkFWa63nGk)
 
 
 
