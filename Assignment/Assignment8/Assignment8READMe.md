@@ -17,7 +17,7 @@ And the original 'Eureka' moment was a discovery, so I used a book, when opened,
 #### Stages of Progress: 
 
 
-   
+<img style="float:center;"  src="https://github.com/maishahoq/Intro-to-IM/blob/main/Assignment/Assignment8/20220328_092727.jpg " alt="Sqcorner" width="500"  />    
 #### Code Snippets
 
 
