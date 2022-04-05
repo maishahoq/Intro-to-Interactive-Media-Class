@@ -5,7 +5,7 @@
                                                        Creative Digital-Analogue Morse-Code
                                                   
                                                   
-The youtube link to the switch: [Creative Switch](https://www.youtube.com/watch?v=3vkCj-aCHm0&list=PLTmPfB4_-Sg4foF8PGk_3zhtN3fRoP_Z-&index=8)
+The youtube link to the switch: [Creative Switch]()
 
 ***     
 
@@ -27,13 +27,13 @@ So, if we want to print SOS, we will need 3 short blinks, 3 long blinks and then
 #### Code Snippets
 
 
-Basic Morse Code With Digital Signals:
+Basic Hard Coded Morse Code With Digital Signals:
 We are tryng to print SOS
 ```````````````````````````````````````````````
 
 int LED = 6;
-int shortTime = 300;
-int longTime = 900;
+int shortTime = 400;
+int longTime = 1000;
 
 void setup () {
   // This sets the pin 6 in output mode
@@ -42,7 +42,7 @@ void setup () {
 }
 
 void loop () {
-  // This is the letter S
+  //This is the letter S
   switchLED(shortTime);
   switchLED(shortTime);
   switchLED(shortTime);
