@@ -140,7 +140,7 @@ void morseGen()
 1. Arduino Software is ot working: Error message shown: 
 
 Problem uploading to board.  See https://support.arduino.cc/hc/en-us/sections/360003198300 for suggestions.
-avrdude: stk500_recv(): programmer is not responding
+avrdude: stk500_recv(): programmer is not responding[Probably it is a device specific roblem for it appears once and then goes away. Normally goes away when I reset and change the ports from the tool option]
 
 
 #### Reference
