@@ -93,3 +93,5 @@ avrdude: stk500_recv(): programmer is not responding
 
 
 #### Reference
+1. https://create.arduino.cc/projecthub/Jalal_Mansoori/morse-code-communication-using-arduino-f339c0
+2. 
