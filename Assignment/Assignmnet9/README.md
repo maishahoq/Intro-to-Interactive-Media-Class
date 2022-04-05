@@ -24,62 +24,113 @@ Morse Code :
 <img style="float:center;"  src="https://github.com/maishahoq/Intro-to-IM/blob/main/Assignment/Assignmnet9/Screen%20Shot%202022-04-05%20at%2012.37.55%20PM.png" alt="Sqcorner" width="500"  />  
 
 So, if we want to print SOS, we will need 3 short blinks, 3 long blinks and then 3 short blinks
+
 #### Code Snippets
+
+Main Part of the code
+```````````````````````````````````````````````
+// about this circuit
+// LED in connected to PIN 7 -> controlled by digitalWrite
+// SWITCH is connected to PIN 3 -> controlled by digitalRead
+
+const int LED_PIN = 7;
+const int SWITCH_PIN = 3;
+int state = 0; //initialise the state variable to 0
+
+//we consider the dots as short timings
+int shortTime = 200;
+//we consider the hyphens as long timings
+int longTime = 900;
+
+void setup() 
+{
+  // set up the pin modes
+  pinMode(LED_PIN, OUTPUT);
+  pinMode(SWITCH_PIN, INPUT);
+ 
+}
+
+void loop() 
+{
+
+  int buttonValue = digitalRead(SWITCH_PIN);
+  if(buttonValue == HIGH) 
+  {
+    morseGen();
+  } 
+  else 
+  {
+    digitalWrite(LED_PIN, LOW);
+  }
+  
+}
+```````````````````````````````````````````````
+
+
+Function to control the lighting timings using digital input:
+```````````````````````````````````````````````
+void switchLED (int timing) 
+{
+  // This sends high voltage to the specified pin
+  digitalWrite(LED_PIN, HIGH);
+  // This delays the next line of code by "timing"
+  delay(timing);
+  // This sends low voltage to the specified pin
+  digitalWrite(LED_PIN, LOW);
+  // This delays the next line of code by "timing"
+  // I used smaller timing here so we don't have to wait long when light is low
+  delay(shortTime);
+}
+
+```````````````````````````````````````````````
+
 
 
 Basic Hard Coded Morse Code With Digital Signals:
-We are tryng to print SOS
+We are tryng to print HELP
 ```````````````````````````````````````````````
 
-int LED = 6;
-int shortTime = 400;
-int longTime = 1000;
-
-void setup () {
-  // This sets the pin 6 in output mode
-  pinMode(LED, OUTPUT);
-  
-}
-
-void loop () {
-  //This is the letter S
+void morseGen()
+{
+  // This is the letter H
+  switchLED(shortTime);
   switchLED(shortTime);
   switchLED(shortTime);
   switchLED(shortTime);
 
   // This delay is to separate the letters
   delay(longTime);
-
-  // This is the letter O
-  switchLED(longTime);
-  switchLED(longTime);
-  switchLED(longTime);
-
-  delay(longTime);
-
-  // This is the letter S
-  switchLED(shortTime);
-  switchLED(shortTime);
+  
+  // This is the letter E
   switchLED(shortTime);
 
+  // This delay is to separate the letters
+  delay(longTime);
+
+  // This is the letter L
+  switchLED(shortTime);
+  switchLED(longTime);
+  switchLED(shortTime);
+  switchLED(shortTime);
+
+  // This delay is to separate the letters
+  delay(longTime);
+  
+  // This is the letter P
+  switchLED(shortTime);
+  switchLED(longTime);
+  switchLED(longTime);
+  switchLED(shortTime);
+  
+
+  // This delay is to separate the letters
   delay(longTime);
   delay(longTime);
   delay(longTime);
+  delay(longTime);
+
 }
 
-void switchLED (int timing) {
-  // This sends high voltage to the specified pin
-  digitalWrite(LED, HIGH);
-  // This delays the next line of code by "timing"
-  // This is so the user can change how long the LED is "on" for
-  delay(timing);
-  // This sends low voltage to the specified pin
-  digitalWrite(LED, LOW);
-  // This delays the next line of code by "timing"
-  // I made this one short because we don't want long timing for when
-  // the LED is "off"
-  delay(shortTime);
-}
 
 ```````````````````````````````````````````````
 
