@@ -11,17 +11,13 @@ The youtube link to the switch: [Creative Switch](https://www.youtube.com/watch?
 
 #### Inspiration 
 
-When the small led bulb lit up for the first time, my brain went back to the 'Eureka' moment with a flashing light bulb that's used in cartoons. 
-And the original 'Eureka' moment was a discovery, so I used a book, when opened, the light of knowledge lights and when closed, the bulb dims down to a stop.
-
-#### Stages of Progress: 
 
 
-<img style="float:center;"  src="https://github.com/maishahoq/Intro-to-IM/blob/main/Assignment/Assignment8/20220328_092727.jpg " alt="Sqcorner" width="500"  />  
+#### Description: 
 
+I wanted to create a morse code generator using digital input-output where the power supply of the breadboard is controlled using a switch.
+Then there is a thermal sensor, which is used as an analoge input to start the LED that will print HELP and will keep doing it as long as the thermal sensor has a vlue higher than 50 degrees Celcius.
 
-
-<img style="float:center;"  src="https://github.com/maishahoq/Intro-to-IM/blob/main/Assignment/Assignment8/20220328_092738_001.jpg" alt="Sqcorner" width="500"  />  
 
 Morse Code :
 
@@ -90,7 +86,10 @@ void switchLED (int timing) {
 
 #### Encountered Problems
 
+1. Arduino Software is ot working: Error message shown: 
 
+Problem uploading to board.  See https://support.arduino.cc/hc/en-us/sections/360003198300 for suggestions.
+avrdude: stk500_recv(): programmer is not responding
 
 
 #### Reference
