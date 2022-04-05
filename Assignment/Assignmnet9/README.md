@@ -34,19 +34,24 @@ Main Part of the code
 // SWITCH is connected to PIN 3 -> controlled by digitalRead
 
 const int LED_PIN = 7;
+const int LED_PINYellow = 5;
 const int SWITCH_PIN = 3;
+//for analogue input
+const int sensorPin = A0;
 int state = 0; //initialise the state variable to 0
+
 
 //we consider the dots as short timings
 int shortTime = 200;
 //we consider the hyphens as long timings
-int longTime = 900;
+int longTime = 1200;
 
 void setup() 
 {
   // set up the pin modes
   pinMode(LED_PIN, OUTPUT);
   pinMode(SWITCH_PIN, INPUT);
+  Serial.begin(9600);
  
 }
 
@@ -54,16 +59,48 @@ void loop()
 {
 
   int buttonValue = digitalRead(SWITCH_PIN);
+  
+  //variables for the thermal sensor
+  int reading = analogRead(sensorPin);
+  int ledValue = reading/4;
+  Serial.print(ledValue);
+  float voltage = reading * 5.0;
+  voltage /= 1024.0;
+  float temperatureC = (voltage - 0.5) * 100 ;
+  float temperatureF = (temperatureC * 9.0 / 5.0) + 32.0;
+
   if(buttonValue == HIGH) 
   {
-    morseGen();
+    //a short delay before the morse code projection using LED blinking starts
+    delay(300);
+
+    //using the serial monitor, we found that if I place my finger on the thermal sensor, the least temperature in Fahrenheits is 71 degrees.
+    if(temperatureF<71)
+    {
+      morseGen();
+    }
+    else
+    {
+      
+      analogWrite(LED_PIN, ledValue);
+      analogWrite(LED_PINYellow, ledValue);
+      
+    }
+    
   } 
   else 
   {
     digitalWrite(LED_PIN, LOW);
+    analogWrite(LED_PINYellow, 0);
   }
+ 
   
+  Serial.print(voltage); Serial.print(" volts  -  ");
+  Serial.print(temperatureC); Serial.print(" degrees C  -  ");
+  Serial.print(temperatureF); Serial.println(" degrees F");
+  //delay(3000);
 }
+
 ```````````````````````````````````````````````
 
 
