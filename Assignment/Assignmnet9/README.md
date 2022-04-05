@@ -23,7 +23,11 @@ And the original 'Eureka' moment was a discovery, so I used a book, when opened,
 
 <img style="float:center;"  src="https://github.com/maishahoq/Intro-to-IM/blob/main/Assignment/Assignment8/20220328_092738_001.jpg" alt="Sqcorner" width="500"  />  
 
+Morse Code :
 
+<img style="float:center;"  src="https://github.com/maishahoq/Intro-to-IM/blob/main/Assignment/Assignmnet9/Screen%20Shot%202022-04-05%20at%2012.37.55%20PM.png" alt="Sqcorner" width="500"  />  
+
+So, if we want to print SOS, we will need 3 short blinks, 3 long blinks and then 3 short blinks
 #### Code Snippets
 
 
