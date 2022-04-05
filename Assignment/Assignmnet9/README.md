@@ -2,10 +2,10 @@
 
 
 
-                                                       Creative Digital-Analogue Morse-Code
+                                                       Secret Digital-Analogue Morse-Code Generator
                                                   
                                                   
-The youtube link to the switch: [Creative Switch]()
+The youtube link to the switch: [Secret Morse-Code Generator](https://youtu.be/HdvdapxZvAI)
 
 ***     
 
@@ -16,14 +16,18 @@ The youtube link to the switch: [Creative Switch]()
 #### Description: 
 
 I wanted to create a morse code generator using digital input-output where the power supply of the breadboard is controlled using a switch.
-Then there is a thermal sensor, which is used as an analoge input to start the LED that will print HELP and will keep doing it as long as the thermal sensor has a vlue higher than 50 degrees Celcius.
 
+Once the switch is on, the morse code generator starts after a delay of 300 millisec, so that the user doesnot miss out on any of the signals. 
+
+Then there is a thermal sensor, which is used as an analoge input for the disguise of the generator. When we detect suspicion or foes nearby, without giving it aaway, as in switching the power supply off, we simply place a finger on the thermal sensor, the mose code generating LED stops functioning and the Yello analogue moderated LED lits up, to fake the project as a general LED managing project. Using the serial monitor, we found that if I place my finger on the thermal sensor, the least temperature in Fahrenheits is 71 degrees.
 
 Morse Code :
 
 <img style="float:center;"  src="https://github.com/maishahoq/Intro-to-IM/blob/main/Assignment/Assignmnet9/Screen%20Shot%202022-04-05%20at%2012.37.55%20PM.png" alt="Sqcorner" width="500"  />  
 
 So, if we want to print SOS, we will need 3 short blinks, 3 long blinks and then 3 short blinks
+
+Link of the Functioning Morse Code part:    [Functioning Morse Code Generator](https://youtu.be/xYmKd7QCoA0)
 
 #### Code Snippets
 
@@ -179,7 +183,10 @@ void morseGen()
 Problem uploading to board.  See https://support.arduino.cc/hc/en-us/sections/360003198300 for suggestions.
 avrdude: stk500_recv(): programmer is not responding[Probably it is a device specific roblem for it appears once and then goes away. Normally goes away when I reset and change the ports from the tool option]
 
+2. The Red LED should light up as ussual using analogue signal when the thermal sensor detects temp more than 71 degrees F, but doesn't.
+
 
 #### Reference
 1. For Morse Code: https://create.arduino.cc/projecthub/Jalal_Mansoori/morse-code-communication-using-arduino-f339c0
 2. For thermal sensors: https://www.youtube.com/watch?v=fjVbcaKW2r0
+3. Using thermal sensors: https://www.youtube.com/watch?v=-jYG-qTEjiA
