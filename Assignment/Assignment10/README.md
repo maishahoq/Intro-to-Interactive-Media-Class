@@ -2,7 +2,7 @@
 
 
 
-                                                         CupTune [A Musical Instrument Using Potentiometer]
+                                              CupTune [A Musical Instrument Using Potentiometer]
                                                   
                                                   
 The youtube link to the switch: [CupTune]()
@@ -11,12 +11,14 @@ The youtube link to the switch: [CupTune]()
 
 #### Inspiration 
 We wanted to create an instrument that will give agency to the user to create their own tune, based on their own preferece. Our inspiration was a maestro: 
+<img style="float:center;"  src="https://github.com/maishahoq/Intro-to-IM/blob/main/Assignment/Assignment10/maestro.jpg" width="500"  />  
 
 
 #### Description: 
 
+We have 6
 
-<img style="float:center;"  src="https://github.com/maishahoq/Intro-to-IM/blob/main/Assignment/Assignmnet9/Screen%20Shot%202022-04-05%20at%2012.37.55%20PM.png" alt="Sqcorner" width="500"  />  
+<img style="float:center;"  src="https://github.com/maishahoq/Intro-to-IM/blob/main/Assignment/Assignment10/maestro.jpg" width="500"  />  
 
 So, if we want to print SOS, we will need 3 short blinks, 3 long blinks and then 3 short blinks
 
