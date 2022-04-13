@@ -11,12 +11,20 @@ The youtube link to the switch: [CupTune]()
 
 #### Inspiration 
 We wanted to create an instrument that will give agency to the user to create their own tune, based on their own preferece. Our inspiration was a maestro: 
+
+
 <img style="float:center;"  src="https://github.com/maishahoq/Intro-to-IM/blob/main/Assignment/Assignment10/maestro.jpg" width="500"  />  
 
 
 #### Description: 
 
-We have 6
+Main Materials: 
+
+1. 6 photoresisters, which capture the intensity of light.
+2. 1 Arduino Uno
+3. 3 Breadboards for base connection
+4. 6 cups to control the amount of light the resistors get access to
+
 
 <img style="float:center;"  src="https://github.com/maishahoq/Intro-to-IM/blob/main/Assignment/Assignment10/maestro.jpg" width="500"  />  
 
