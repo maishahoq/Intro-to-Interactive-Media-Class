@@ -2,7 +2,7 @@
 
 
 
-                                              CupTune [A Musical Instrument Using Potentiometer]
+                                              CupTune [A Musical Instrument Using Photoresistor]
                                                   
                                                   
 The youtube link to the switch: [CupTune](https://youtu.be/V0pYBJg3rO8)
