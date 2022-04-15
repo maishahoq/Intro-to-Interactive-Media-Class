@@ -34,10 +34,10 @@ The image of the instrument:
 The cups cover the photoresistors, and so no tone is produced. But when the cups are taken up, based on the distance between the cup and the photoresistor, the pitch of the tone from that specific resistor changes.
 6 photoresistors control 6 differnt notes in the instrument, A to F, with the pitches ranging from 1 to 7, hence giving out 7 different pitches at 7 different distances of the cup from the photo resistor. 
 
-Functionality of the instrument:
+Usage of the instrument:
 [CupTune Stage-1](https://youtu.be/V0pYBJg3rO8)
 
-Functionality of the instrument:
+Usage of the instrument:
 [CupTune Stage-2]()
 
 
