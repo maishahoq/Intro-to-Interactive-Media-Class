@@ -20,10 +20,11 @@ We wanted to create an instrument that will give agency to the user to create th
 
 Main Materials: 
 
-1. 6 photoresistors, which capture the intensity of light.
+1. 6 photoresistors, which capture the intensity of light. [Analogue Input]
 2. 1 Arduino Uno
 3. 3 Breadboards for base connection
 4. 6 cups to control the amount of light the resistors get access to
+5. Switch to control the supply of electricity to the circuit. [Digital Inputx]
 
 The image of the instrument:
 
