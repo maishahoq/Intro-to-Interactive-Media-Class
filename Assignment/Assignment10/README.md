@@ -51,83 +51,90 @@ The function noTone() at the end controls the no tone functionality when all the
 Main Part of the code
 ```````````````````````````````````````````````
 
-  if (resVal1 > resVal2 && resVal1 > resVal3 && resVal1 > resVal4 && resVal1 > resVal5 && resVal1 > resVal6) {
-    for (int thisNote = 0; thisNote < 7; thisNote++)
-    {
-      if (resVal1 > (150 + counterA) && resVal1 < 250 + counterA) {
+  if (buttonValue == HIGH)
+  {
+    if (resVal1 > resVal2 && resVal1 > resVal3 && resVal1 > resVal4 && resVal1 > resVal5 && resVal1 > resVal6) {
+      for (int thisNote = 0; thisNote < 7; thisNote++)
+      {
+        if (resVal1 > (150 + counterA) && resVal1 < 250 + counterA) {
 
-        tone(speaker, A[thisNote], 5);
-        Serial.println("first");
+          tone(speaker, A[thisNote], 5);
+          Serial.println("first");
+        }
+        counterA = counterA + 100;
+
       }
-      counterA = counterA + 100;
+    } else if (resVal2 > resVal1 && resVal2 > resVal3 && resVal2 > resVal4 && resVal2 > resVal5 && resVal2 > resVal6) {
+      for (int thisNote = 0; thisNote < 7; thisNote++)
+      {
+        if (resVal2 > (150 + counterB) && resVal2 < 250 + counterB) {
 
-    }
-  } else if (resVal2 > resVal1 && resVal2 > resVal3 && resVal2 > resVal4 && resVal2 > resVal5 && resVal2 > resVal6) {
-    for (int thisNote = 0; thisNote < 7; thisNote++)
-    {
-      if (resVal2 > (150 + counterB) && resVal2 < 250 + counterB) {
+          tone(speaker, B[thisNote], 5);
+          Serial.println("2nd");
+        }
+        counterB = counterB + 100;
 
-        tone(speaker, B[thisNote], 5);
-        Serial.println("2nd");
       }
-      counterB = counterB + 100;
 
-    }
+    } else if (resVal3 > resVal1 && resVal3 > resVal2 && resVal3 > resVal4 && resVal3 > resVal5 && resVal3 > resVal6) {
+      for (int thisNote = 0; thisNote < 7; thisNote++)
+      {
+        if (resVal3 > (150 + counterC) && resVal3 < 250 + counterC) {
 
-  } else if (resVal3 > resVal1 && resVal3 > resVal2 && resVal3 > resVal4 && resVal3 > resVal5 && resVal3 > resVal6) {
-    for (int thisNote = 0; thisNote < 7; thisNote++)
-    {
-      if (resVal3 > (150 + counterC) && resVal3 < 250 + counterC) {
+          tone(speaker, C[thisNote], 5);
+          Serial.println("3rd");
+        }
+        counterC = counterC + 100;
 
-        tone(speaker, C[thisNote], 5);
-        Serial.println("3rd");
       }
-      counterC = counterC + 100;
 
-    }
+    } else if (resVal4 > resVal1 && resVal4 > resVal2 && resVal4 > resVal3 && resVal4 > resVal5 && resVal4 > resVal6) {
+      for (int thisNote = 0; thisNote < 7; thisNote++)
+      {
+        if (resVal4 > (150 + counterD) && resVal4 < 250 + counterD) {
 
-  } else if (resVal4 > resVal1 && resVal4 > resVal2 && resVal4 > resVal3 && resVal4 > resVal5 && resVal4 > resVal6) {
-    for (int thisNote = 0; thisNote < 7; thisNote++)
-    {
-      if (resVal4 > (150 + counterD) && resVal4 < 250 + counterD) {
+          tone(speaker, D[thisNote], 5);
+          Serial.println("4th");
+        }
+        counterD = counterD + 100;
 
-        tone(speaker, D[thisNote], 5);
-        Serial.println("4th");
       }
-      counterD = counterD + 100;
 
-    }
+    } else if (resVal5 > resVal1 && resVal5 > resVal2 && resVal5 > resVal3 && resVal5 > resVal4 && resVal5 > resVal6) {
+      for (int thisNote = 0; thisNote < 7; thisNote++)
+      {
+        if (resVal5 > (150 + counterE) && resVal5 < 250 + counterE) {
 
-  } else if (resVal5 > resVal1 && resVal5 > resVal2 && resVal5 > resVal3 && resVal5 > resVal4 && resVal5 > resVal6) {
-    for (int thisNote = 0; thisNote < 7; thisNote++)
-    {
-      if (resVal5 > (150 + counterE) && resVal5 < 250 + counterE) {
+          tone(speaker, E[thisNote], 5);
+          Serial.println("5th");
+        }
+        counterE = counterE + 100;
 
-        tone(speaker, E[thisNote], 5);
-        Serial.println("5th");
       }
-      counterE = counterE + 100;
 
-    }
+    } else if (resVal6 > resVal1 && resVal6 > resVal2 && resVal6 > resVal3 && resVal6 > resVal4 && resVal6 > resVal5) {
+      for (int thisNote = 0; thisNote < 7; thisNote++)
+      {
+        if (resVal6 > (150 + counterF) && resVal6 < 250 + counterF) {
 
-  } else if (resVal6 > resVal1 && resVal6 > resVal2 && resVal6 > resVal3 && resVal6 > resVal4 && resVal6 > resVal5) {
-    for (int thisNote = 0; thisNote < 7; thisNote++)
-    {
-      if (resVal6 > (150 + counterF) && resVal6 < 250 + counterF) {
+          tone(speaker, F[thisNote], 5);
+          Serial.println("6th");
+        }
+        counterF = counterF + 100;
 
-        tone(speaker, F[thisNote], 5);
-        Serial.println("6th");
       }
-      counterF = counterF + 100;
 
+    } else {
+      noTone(speaker);
+      //    Serial.println("hehe");
+      Serial.println(resVal1);
     }
 
-  } else {
-    noTone(speaker);
-    //    Serial.println("hehe");
-    Serial.println(resVal1);
   }
-
+  else
+  {
+    noTone(speaker);
+  }
 
 
 ```````````````````````````````````````````````
