@@ -22,3 +22,25 @@ void loop() {
   delay(1);                                            
 }
 ````````````````````````````````````````````````
+
+
+
+p5.js edits to the p5.serial controller code:
+
+
+````````````````````````````````````````````````
+function draw() {
+ background(255,255,255);
+ fill(0,0,0);
+ text(latestData, 10, 10);
+ // Polling method
+ /*
+ if (serial.available() > 0) {
+  let data = serial.read();
+  ellipse(50,50,data,data);
+ }
+ */
+  let x=latestData;
+  ellipse(x, height / 2, 100, 100);
+
+````````````````````````````````````````````````
