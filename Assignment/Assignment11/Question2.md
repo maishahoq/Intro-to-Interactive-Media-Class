@@ -11,18 +11,24 @@ Arduino Code:
 ``````````````````````````````````````````````
 
 void setup() {
-  Serial.begin(9600); // initialize serial communications
+  Serial.begin(9600);             // initialize serial communication
+  pinMode(ledPin, OUTPUT);        // initialize the LED pin as an output
 }
  
 void loop() {
-  // read the input pin:
-  int potentiometer = analogRead(A0);                  
-  // remap the pot value to fit in 1 byte:
-  int mappedPot = map(potentiometer, 0, 1023, 0, 255); 
-  // print it out the serial port:
-  Serial.println(mappedPot);                             
-  // slight delay to stabilize the ADC:
-  delay(1);                                            
+  if (Serial.available() > 0) { // see if there's incoming serial data
+    incomingByte = Serial.read(); // read it
+    if (incomingByte == 'H') {    // if it's a capital H (ASCII 72),
+      digitalWrite(ledPin, HIGH); // turn on the LED
+      // if you're using a speaker instead of an LED, uncomment line below  and comment out the previous line:
+      //  tone(5, 440);           // play middle A on pin 5
+    }
+    if (incomingByte == 'L') {    // if it's an L (ASCII 76)
+      digitalWrite(ledPin, LOW);  // turn off the LED
+      // if you're using a speaker instead of an LED, uncomment line below  and comment out the previous line:
+      // noTone(5);
+    }
+  }
 }
 ````````````````````````````````````````````````
 
