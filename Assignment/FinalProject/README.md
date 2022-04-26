@@ -1,6 +1,6 @@
-  Happy Panda Project 
 
-(Plushy Toy for Mental Health Support )
+                                                            Happy Panda Project 
+                                                     (Plushy Toy for Mental Health Support )
 
 
 ***     
