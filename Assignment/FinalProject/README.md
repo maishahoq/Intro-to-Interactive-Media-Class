@@ -44,6 +44,7 @@ Always end the cycle with a hug from panda
 The game will have two parts: `1.` Algorithm Visualizer
                               `2.` Algorithm Game
 
+
 __Visualizer:__  This part of the game is instructional and was inspired from the assignment where we did generative art without any interaction from the user. So, there will be visualization of how the different sorting algorithm works based on which algorithm the user chooses.
 
 __Game:__ This part of the game is interactive and was inspired from the assignment where we did generative art with interactions from the user. The user will be able to play the game and try out different algorithms by moving the objects on screen using the cursor.
@@ -93,6 +94,10 @@ __1__. The balls were getting vanished behind the ball in my cursor:
 Solution: Used "break" keyword inside the if statement of the forloop of mouse dragged to stop from taking any other ball when a ball has been selected.
 
 
+
+### Things we have to work on (Problems)
+1. When there are multiple inputs at the same time, how to take all of them and seperate out output?
+2. 
 
 
 
