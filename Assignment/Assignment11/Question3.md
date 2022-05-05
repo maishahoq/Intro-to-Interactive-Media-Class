@@ -2,6 +2,60 @@
  
  
  
+ The p5.js skectch for the that: [Question3](https://editor.p5js.org/maishahoq/sketches/d3b3mAFjY)
+
+ The p5 code:
+`````````````````````````````````````````````````````````````````
+ function draw() {
+ background(255,255,255);
+ fill(0,0,0);
+ text(latestData, 10, 10);
+  applyForce(wind);
+  applyForce(gravity);
+  velocity.add(acceleration);
+  velocity.mult(drag);
+  position.add(velocity);
+  acceleration.mult(0);
+  ellipse(position.x,position.y,mass,mass);
+  if (position.y > height-mass/2) {
+      velocity.y *= -0.9;  // A little dampening when hitting the bottom
+      position.y = height-mass/2;
+      serial.write('l');   // send it out the serial port
+    }
+  if (latestData<400){ //if the potentiometer value is less than 400, the ball goes left
+    wind.x=-1;
+  }
+  else if (latestData>400){  //if the potentiometer value is greater than 400, the ball goes left
+    wind.x=1;
+  }
+
+ // Polling method
+ /*
+ if (serial.available() > 0) {
+  let data = serial.read();
+  ellipse(50,50,data,data);
+ }
+ */
+}
+
+function keyPressed(){
+  if (key==' '){
+    mass=random(15,80);
+    position.y=-mass;
+    velocity.mult(0);
+  }
+}
+
+function applyForce(force){
+  // Newton's 2nd law: F = M * A
+  // or A = F / M
+  let f = p5.Vector.div(force, mass);
+  acceleration.add(f);
+}
+
+````````````````````````````````````````````````````````````````
+ 
+ 
  Arduino Code
  ```````````````````````````````````````````````````````
  #define LED 5
