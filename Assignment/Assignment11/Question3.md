@@ -56,8 +56,11 @@ function applyForce(force){
 ````````````````````````````````````````````````````````````````
  
  
- Arduino Code
- ```````````````````````````````````````````````````````
+ 
+ 
+Arduino Code
+
+```````````````````````````````````````````````````````
  #define LED 5
 #define analoguePin0 A0
 int incomingByte;     // a variable to read incoming serial data into
