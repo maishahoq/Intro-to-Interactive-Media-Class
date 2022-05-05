@@ -58,7 +58,7 @@ function applyForce(force){
  
  
  
-Arduino Code
+# Arduino Code:
 
 ```````````````````````````````````````````````````````
  #define LED 5
