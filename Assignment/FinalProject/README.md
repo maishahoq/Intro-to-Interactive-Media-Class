@@ -27,23 +27,27 @@ Range of good Heart State: 70 BPM to 90 BPM
 
  Screens:
 Start Screen
+Panda at the bottom needs animation; If you click on this panda, we will be taken to a panda awareness screen.
 Measure Pulse and Daily Mood Journal [Choose either]
 If Pulse>70 and less than 90 BPM, normal category screen pops up
 If Pulse<70 and > 90 BPM, non-normal category screen pops up
+Screen-3:Click on anxiety tracker and it takes you to pulse measuring screen 
+It will store all the pulse values for 1 minute, and give you the average pulse rate.
+Based on the difference of the 1st and last pulse of every 10 sec interval, and if the average of these differences is greater than 30, you are very anxious; if less than 30, you are not anxious.
+Pulse Screen
 
 Pulse screen:
-Normal Category Screen:
-      
 Non-normal category Screen:
-     a. Breathing Meditation b. Guided Meditation c. Affirmation d. 
+     a. Breathing Meditation[Download Audio Files From Online] b. Guided Meditation [Download Audio Files From Online] c. Affirmation [Download Audio Files From Online]
+           Normal Category Screen:
+     Always end the cycle with a hug from panda
 
-Daily Mood Journal:
+
+Daily Mood Journal: [Extra part]
        
-      
-Always end the cycle with a hug from panda
+    
 The game will have two parts: `1.` Algorithm Visualizer
                               `2.` Algorithm Game
-
 
 __Visualizer:__  This part of the game is instructional and was inspired from the assignment where we did generative art without any interaction from the user. So, there will be visualization of how the different sorting algorithm works based on which algorithm the user chooses.
 
@@ -86,18 +90,6 @@ __Game:__ This part of the game is interactive and was inspired from the assignm
 
 ### Encountered Problems
 
-__1__. The balls were getting vanished behind the ball in my cursor:
-
-<img style="float:center;"  src="https://github.com/maishahoq/Intro-to-IM/blob/main/Assignment/GameDevelopment/Gallery/Screen%20Shot%202022-03-05%20at%2010.03.04%20AM.png" alt="Inspiration" width="300"  />                          <img style="float:center;"  src="https://github.com/maishahoq/Intro-to-IM/blob/main/Assignment/GameDevelopment/Gallery/Screen%20Shot%202022-03-05%20at%2010.03.20%20AM.png" alt="Inspiration" width="300"  />                                <img style="float:center;"  src="https://github.com/maishahoq/Intro-to-IM/blob/main/Assignment/GameDevelopment/Gallery/Screen%20Shot%202022-03-05%20at%2010.03.28%20AM.png" alt="Inspiration" width="300"  />   
-
-
-Solution: Used "break" keyword inside the if statement of the forloop of mouse dragged to stop from taking any other ball when a ball has been selected.
-
-
-
-### Things we have to work on (Problems)
-1. When there are multiple inputs at the same time, how to take all of them and seperate out output?
-2. 
 
 
 
@@ -122,6 +114,12 @@ Audio Effects: [Oh No](https://mobcup.net/ringtone/oh-no-t6cf2k15/download/mp3)
 
 
 
+### Questions:
+How to stop taking values from arduino?
+How to switch between multiple inputs from arduino?
 
 
-
+### Roadmap
+1. Get the 4 sensor data from Arduino
+2. The p5.js 1st screen changes to 2nd screen after 10s of starting the program (cuz it takes sometime for the pulse sensor to start taking correct values as input) .
+3. 
