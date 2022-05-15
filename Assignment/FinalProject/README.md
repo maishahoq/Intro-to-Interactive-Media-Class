@@ -13,7 +13,8 @@ The P5JS Link: (__)(https://editor.p5js.org/maishahoq/sketches/2krDoMj8j)
 ### Inspiration
 
 <img style="float:center;"  src="https://miniso-bh.com/wp-content/uploads/2020/05/0300021151_1.jpg" alt="Inspiration" width="500"  />
-
+We wanted to do something very meaningful for this project, something that might be a small endeavor, but something that adds meaning to the industrial products in the maret, because often times we have too many fun/cool gadgets in the market and we happen to forget an important part of our health that needs nurturing and maintenance as well as our physical health, which is our mental health.
+Bato recently had finishied a book which 
 Mental Health: Main Part
 
 Awareness About Pandas’ Extinction: Ending Part
@@ -21,13 +22,12 @@ Just at the ending screen, we will have
 Speech recognition [extra f we have time]
 
 Range of good Heart State: 70 BPM to 90 BPM
-### Design Explanation
 
-# **FINAL PROJECT DOCUMENTATION** 🎨🔮✨ #
+### Design Explanation
 
 **///design concept & logo///**
 
-- After thinking over the UI design, We decided to stick with two primary colors (warm pastel yellow (252, 238, 184) and white (255,255,255) for the clean minimalistic look. 
+- After thinking over the UI design, We decided to stick with two primary colors (warm pastel yellow (252, 238, 184) and white (255,255,255) for the clean minimalistic look. One of the important reasons for choosing from the pastel palette is because e wanted our UI to be safe for people with anxiety, because multi colored palattes trigger anxiety. We had to spend substantial time to research about this color choosing issue, because for midterm, our color palattes were not suitable to our project.
 
 
 - We designed the Panda logo on iPad's Procreate app. First we made a rough sketch of the panda, and followed up with more layers to polish.
