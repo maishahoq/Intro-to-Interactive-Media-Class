@@ -22,7 +22,10 @@ We wanted to do something very meaningful for this project, something that might
 Bato recently had finishied a book which taked about the ways to tackle anxiety and they got us more hyped to do something on mental health, adding to the fact that it was near final season for us and we were already struggling with our mental health.
 
 
-Range of good Heart State: 70 BPM to 90 BPM
+
+
+
+
 
 ### Design Explanation
 
@@ -73,13 +76,18 @@ to learn how to sitch, we followed [GitHub Pages](https://www.youtube.com/watch?
 
 
 
+
+
+
+
+
 ### Game Description
 
 Our 
 Screens:
 
 Start Screen: 
-Panda at the bottom needs animation; If you click on this panda, we will be taken to a panda awareness screen.
+
 Measure Pulse and Daily Mood Journal [Choose either]
 If Pulse>70 and less than 90 BPM, normal category screen pops up
 If Pulse<70 and > 90 BPM, non-normal category screen pops up
@@ -87,7 +95,7 @@ Screen-3:Click on anxiety tracker and it takes you to pulse measuring screen
 It will store all the pulse values for 1 minute, and give you the average pulse rate.
 Based on the difference of the 1st and last pulse of every 10 sec interval, and if the average of these differences is greater than 30, you are very anxious; if less than 30, you are not anxious.
 Pulse Screen
-
+Range of good Heart State: 70 BPM to 90 BPM
 Pulse screen:
 Non-normal category Screen:
      a. Breathing Meditation[Download Audio Files From Online] b. Guided Meditation [Download Audio Files From Online] c. Affirmation [Download Audio Files From Online]
@@ -98,15 +106,9 @@ Non-normal category Screen:
 Daily Mood Journal: [Extra part]
        
     
-The game will have two parts: `1.` Algorithm Visualizer
-                              `2.` Algorithm Game
 
-__Visualizer:__  This part of the game is instructional and was inspired from the assignment where we did generative art without any interaction from the user. So, there will be visualization of how the different sorting algorithm works based on which algorithm the user chooses.
 
-__Game:__ This part of the game is interactive and was inspired from the assignment where we did generative art with interactions from the user. The user will be able to play the game and try out different algorithms by moving the objects on screen using the cursor.
-+ Everytime a correct path is traced, a celebration sound goes off at the background
-                              
-    
+
    + __Screen 1:__  [Screen 1](https://youtu.be/-dmTamqtpMo)
    
    + __Game Play (If I Win):__       [Game Play (If I Win)](https://youtu.be/h-hNwFqHEBo)
@@ -116,10 +118,6 @@ __Game:__ This part of the game is interactive and was inspired from the assignm
 
 
 ### Game Algorithm Explanation:
-
-
-<img style="float:center;"  src="https://github.com/maishahoq/Intro-to-IM/blob/main/Assignment/GameDevelopment/Gallery/275042261_728017601908557_3536086805784017991_n.jpg" alt="Inspiration" width="500"  />
-
 
 
 
@@ -136,9 +134,6 @@ __Game:__ This part of the game is interactive and was inspired from the assignm
 
          + Game Modification:   The user can change the change just by changing the values in some of the variables, this will modify the whole code without it breaking anywhere. Example, just changing the no of balls variable, changes the box numbers, places the balls in equal distances, changes the comparisons of positions etc. The values have been barely hardcoded.
          
-         + Resuse code from other assignments. I tried mofifying the one of the assignments to fit the game as an intro screen because the assignmnethas animation of balls to it.
-         
-
 
 ### Encountered Problems
 
@@ -155,9 +150,15 @@ __5__. Our projects handles a lot of big sized and longer audio files, which cau
 
 ### Future Additions
 
-__1__.  Awareness About Pandas’ Extinction: Ending Part
+__1__.  Awareness About Pandas’ Extinction: Ending Part or Panda at the bottom needs animation; If you click on this panda, we will be taken to a panda awareness screen.
+
 __2__.  We want to add some speech recognition to this interactive experience, where you can give speech commands. 
-__3__.  
+
+__3__.  Implementing Handshake for smooth transmission of data
+
+__4__.  Daily Mood journal as another option if people ddo not want to use Anxiety Tracker
+
+__5__.  Make a mobile application out of this theme to support our friends during finals and stress times
 
 
 ### Reference
@@ -184,5 +185,23 @@ Timer: [Timer using FrameCount](https://editor.p5js.org/marynotari/sketches/S1T2
 
 ### Roadmap
 1. Get the 4 sensor data from Arduino
-2. The p5.js 1st screen changes to 2nd screen after 10s of starting the program (cuz it takes sometime for the pulse sensor to start taking correct values as input) .
-3. 
+2. The p5.js 1st screen changes to 2nd screen after 3s of starting the program (cuz it takes sometime for the pulse sensor to start taking correct values as input) .
+3. Click on Anxiety Tracker, it starts processing the data from pulse. But the data collection had started already when the program starts. This means that we give ample time for the pulse meter to stablize and start giving the p5.js correct data [decided from user testing].
+4. The pulse can be seen on the screen, in the yellow circular part
+5. It will store all the pulse values for 1 minute, and dislay you the average pulse rate.
+6. Based on the difference of the 1st and last pulse of every 10 sec interval, and if the average of these differences is greater than 30, you are very anxious; if less than 30, you are not anxious.
+7. If you are anxious, takes you to Non-normal category Screen:
+     
+
+     a. Breathing Meditation[Download Audio Files From Online]
+     
+     b. Guided Meditation [Download Audio Files From Online] 
+     
+     c. Affirmation [Download Audio Files From Online]
+     
+8. Normal Category Screen: Always end the cycle with a hug from panda
+ 
+ 
+           
+
+
