@@ -103,21 +103,46 @@ Helvetica, on the other hand, is neat and easy on the eyes, so we thought it was
      
      c. Affirmation [Download Audio Files From Online]
      
-8. Normal Category Screen: Always end the cycle with a hug from panda
+8. Normal Category Screen: Always end the cycle with a hug from panda. When you hug panda, hug sensor activates and the still panda image on the screen is replaced by a panda gif which is hugging you.
 
 
-   + __Screen 1:__  [Screen 1](https://youtu.be/-dmTamqtpMo)
+
+
+   + __Screen 1:__  
    
-   + __Game Play (If I Win):__       [Game Play (If I Win)](https://youtu.be/h-hNwFqHEBo)
-   + __Game Play (If I Lose):__      [Game Play (If I Lose)](https://youtu.be/bYkFWa63nGk)
+   <img width="400" alt="tilee" src="https://github.com/maishahoq/Intro-to-IM/blob/main/Assignment/FinalProject/Screen1.png">
 
 
+   
+   + __Screen 2:__  
+   
+  <img width="400" alt="tilee" src="https://github.com/maishahoq/Intro-to-IM/blob/main/Assignment/FinalProject/Screen2.png">
 
 
+   
+   
+   + __Screen 3:__  
+   
+ <img width="400" alt="tilee" src="https://github.com/maishahoq/Intro-to-IM/blob/main/Assignment/FinalProject/Screen3.png">
+   
+   
+   
+   
+   + __Screen 4:__  
+   
+ <img width="400" alt="tilee" src="https://github.com/maishahoq/Intro-to-IM/blob/main/Assignment/FinalProject/Screen4.png">
 
 
+   
+   
+   + __Screen 5:__  
+   
+<img width="400" alt="tilee" src="https://github.com/maishahoq/Intro-to-IM/blob/main/Assignment/FinalProject/Screen5.png">
 
-
+   
+  
+  
+  
 
 ### Project Growth Phases:
 
@@ -144,8 +169,8 @@ We also made a bag pack for the panda, which e believe is the smartest part of o
 
 
 
-<img width="400" alt="tilee" src="https://github.com/maishahoq/Intro-to-IM/blob/main/Assignment/FinalProject/20220513_191117.jpg
-">
+
+<img width="400" alt="tilee" src="https://github.com/maishahoq/Intro-to-IM/blob/main/Assignment/FinalProject/20220513_191117.jpg">
 
 
 
