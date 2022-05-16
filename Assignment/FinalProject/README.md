@@ -8,7 +8,7 @@
 The P5JS Link: (__)(https://editor.p5js.org/maishahoq/sketches/2krDoMj8j)
 
 
-<img style="float:center;"  src="https://github.com/maishahoq/Intro-to-IM/blob/main/Assignment/FinalProject/20220512_160433.jpg" alt="Inspiration" width="500"  /> 
+<img style="float:center;"  src="https://github.com/maishahoq/Intro-to-IM/blob/main/Assignment/FinalProject/IntroPics.jpg" alt="Inspiration" width="500"  /> 
 
 
 ***   
@@ -73,12 +73,12 @@ to learn how to sitch, we followed [GitHub Pages](https://www.youtube.com/watch?
 
 
 
-
-
 ### Game Description
 
- Screens:
-Start Screen
+Our 
+Screens:
+
+Start Screen: 
 Panda at the bottom needs animation; If you click on this panda, we will be taken to a panda awareness screen.
 Measure Pulse and Daily Mood Journal [Choose either]
 If Pulse>70 and less than 90 BPM, normal category screen pops up
@@ -150,6 +150,9 @@ __3__. There was only a few force sensors left in the IM lab and the IM Lab ran 
 
 __4__. The pulse sensor output voltage values from 0,1023, which was a problem because we needed the accurate pulse value to be mapped to these voltage values for pulse tracking. Initially, following a medical jounal we mapped the voltage value to human bpm values, but we were getting erratic values sometimes because of that, for which we  again had to use if conditions and filter out values of certain range, which esulted in inaccurancy sometimes. [Solution: ] A few days before the presentation, we found an amazing arduino library that uses thresholds to currently map voltage value to human bpm values. This saved us a lot of lines of code in our arduino, and now our arduino code is much simpler and organized for using the library. The library is called "PulseSensorPlayground ".
 
+__5__. Our projects handles a lot of big sized and longer audio files, which causes our project to lag sometimes. We resized the files to smaller files, still it causes lag in the animation sometimes, so we have to figure this out.
+
+
 ### Future Additions
 
 __1__.  Awareness About Pandas’ Extinction: Ending Part
@@ -163,6 +166,7 @@ __3__.
 
 Website to used for colors: [Color Picker](https://htmlcolorcodes.com/color-picker/)
 
+
 Determining Fast Heart Rate: [British Heart Foundation](https://www.bhf.org.uk/informationsupport/heart-matters-magazine/medical/ask-the-experts/pulse-rate)
 
 Create Button using Image: [createImg](https://gist.github.com/lizzybrooks/54045563e4e8321718cc40297db999f9)
@@ -172,13 +176,10 @@ Create Button using Image: [createImg](https://gist.github.com/lizzybrooks/54045
 Timer: [Timer using FrameCount](https://editor.p5js.org/marynotari/sketches/S1T2ZTMp-)
 
 
-Audio Effects: [Oh No](https://mobcup.net/ringtone/oh-no-t6cf2k15/download/mp3)
-
-
 
 ### Questions:
-How to stop taking values from arduino?
-How to switch between multiple inputs from arduino?
+1. How to stop taking values from arduino?
+2. How to switch between multiple inputs from arduino?
 
 
 ### Roadmap
