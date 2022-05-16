@@ -7,12 +7,17 @@
 
 The P5JS Link: (__)(https://editor.p5js.org/maishahoq/sketches/2krDoMj8j)
 
+
+<img style="float:center;"  src="https://github.com/maishahoq/Intro-to-IM/blob/main/Assignment/FinalProject/20220512_160433.jpg" alt="Inspiration" width="500"  /> 
+
+
 ***   
 
 
 ### Inspiration
 
 <img style="float:center;"  src="https://miniso-bh.com/wp-content/uploads/2020/05/0300021151_1.jpg" alt="Inspiration" width="500"  />
+
 We wanted to do something very meaningful for this project, something that might be a small endeavor, but something that adds meaning to the industrial products in the maret, because often times we have too many fun/cool gadgets in the market and we happen to forget an important part of our health that needs nurturing and maintenance as well as our physical health, which is our mental health.
 Bato recently had finishied a book which taked about the ways to tackle anxiety and they got us more hyped to do something on mental health, adding to the fact that it was near final season for us and we were already struggling with our mental health.
 
