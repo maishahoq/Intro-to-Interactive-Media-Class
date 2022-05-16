@@ -14,12 +14,8 @@ The P5JS Link: (__)(https://editor.p5js.org/maishahoq/sketches/2krDoMj8j)
 
 <img style="float:center;"  src="https://miniso-bh.com/wp-content/uploads/2020/05/0300021151_1.jpg" alt="Inspiration" width="500"  />
 We wanted to do something very meaningful for this project, something that might be a small endeavor, but something that adds meaning to the industrial products in the maret, because often times we have too many fun/cool gadgets in the market and we happen to forget an important part of our health that needs nurturing and maintenance as well as our physical health, which is our mental health.
-Bato recently had finishied a book which 
-Mental Health: Main Part
+Bato recently had finishied a book which taked about the ways to tackle anxiety and they got us more hyped to do something on mental health, adding to the fact that it was near final season for us and we were already struggling with our mental health.
 
-Awareness About Pandas’ Extinction: Ending Part
-Just at the ending screen, we will have 
-Speech recognition [extra f we have time]
 
 Range of good Heart State: 70 BPM to 90 BPM
 
@@ -141,12 +137,19 @@ __Game:__ This part of the game is interactive and was inspired from the assignm
 
 ### Encountered Problems
 
+__1__. Since our project was a toy, we couldn't have our wiring, the soldered breadboard or the arduino hanging out or outside the panda, which was the biggest problem. So we made the panda itself our casing. The sensors stopped working inside the body of the panda, we assumed it was because of the cotton from the panda. [Solution:] we had to resolder our wires and stick the sensors outside so that the cotton mass didn't stop from taking values on the sensors.
 
+__2__. Positioning the sensors, we had to do a lot of trial and errors and finally we were able to figure out where to put certain sensors for the sensors to get activated with touch
 
+__3__. There was only a few force sensors left in the IM lab and the IM Lab ran out of force sensors, so we couldn't incorporate a sensor for the "affirmation" section of our project
+
+__4__. The pulse sensor output voltage values from 0,1023, which was a problem because we needed the accurate pulse value to be mapped to these voltage values for pulse tracking. Initially, following a medical jounal we mapped the voltage value to human bpm values, but we were getting erratic values sometimes because of that, for which we  again had to use if conditions and filter out values of certain range, which esulted in inaccurancy sometimes. [Solution: ] A few days before the presentation, we found an amazing arduino library that uses thresholds to currently map voltage value to human bpm values. This saved us a lot of lines of code in our arduino, and now our arduino code is much simpler and organized for using the library. The library is called "PulseSensorPlayground ".
 
 ### Future Additions
 
-__1__.  Adding an instruction animation using code. Due to lack of expertise and time commitment since I am overloading this semester and had a lot of exams and projects due at the same time, I could't do this before. I plan to add this during Spring Break.
+__1__.  Awareness About Pandas’ Extinction: Ending Part
+__2__.  We want to add some speech recognition to this interactive experience, where you can give speech commands. 
+__3__.  
 
 
 ### Reference
@@ -155,7 +158,10 @@ __1__.  Adding an instruction animation using code. Due to lack of expertise and
 
 Website to used for colors: [Color Picker](https://htmlcolorcodes.com/color-picker/)
 
-Mapping reference: [2.5: The map() Function](https://www.youtube.com/watch?v=nicMAoW6u1g)
+Determining Fast Heart Rate: [British Heart Foundation](https://www.bhf.org.uk/informationsupport/heart-matters-magazine/medical/ask-the-experts/pulse-rate)
+
+Create Button using Image: [createImg](https://gist.github.com/lizzybrooks/54045563e4e8321718cc40297db999f9)
+
 
 
 Timer: [Timer using FrameCount](https://editor.p5js.org/marynotari/sketches/S1T2ZTMp-)
