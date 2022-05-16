@@ -130,7 +130,7 @@ Helvetica, on the other hand, is neat and easy on the eyes, so we thought it was
    
    + __Screen 4:__  
    
- <img width="400" alt="tilee" src="https://github.com/maishahoq/Intro-to-IM/blob/main/Assignment/FinalProject/Screen4.png">
+ <img width="400" alt="tilee" src="https://github.com/maishahoq/Intro-to-IM/blob/main/Assignment/FinalProject/SCreen4.png">
 
 
    
