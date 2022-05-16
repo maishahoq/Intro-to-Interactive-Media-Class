@@ -70,43 +70,28 @@ Helvetica, on the other hand, is neat and easy on the eyes, so we thought it was
 
 <img src="https://user-images.githubusercontent.com/90750426/168316679-52634c37-12b8-4948-b619-6d6feb9dc4c9.gif" width="200"> <img src="https://user-images.githubusercontent.com/90750426/168316892-e42dd523-90f7-4ee2-a8bf-3f7865bacadd.gif" width="200"> 
 
-**///stitching process///**
-
-to learn how to sitch, we followed [GitHub Pages](https://www.youtube.com/watch?v=K3fFHV6r9Ow) from Youtube. This video demonstrates an invisible stitiching method known as "ladder sititch." This was particularly helpful for beginners like us. After putting all the sensors inside, we made small cuts on the tips of the Panda's legs and hands. This way, we could get more accurate inputs from our sensors.
 
 
 
 
+### Project Roadmap and Game Description: 
 
+1. Get the 4 sensor data from Arduino
+2. The p5.js 1st screen changes to 2nd screen after 3s of starting the program (cuz it takes sometime for the pulse sensor to start taking correct values as input) .
+3. Click on Anxiety Tracker, it starts processing the data from pulse. But the data collection had started already when the program starts. This means that we give ample time for the pulse meter to stablize and start giving the p5.js correct data [decided from user testing].
+4. The pulse can be seen on the screen, in the yellow circular part
+5. It will store all the pulse values for 1 minute, and dislay you the average pulse rate.
+6. Based on the difference of the 1st and last pulse of every 10 sec interval, and if the average of these differences is greater than 30, you are very anxious; if less than 30, you are not anxious.
+7. If you are anxious, takes you to Non-normal category Screen:
+     
 
-
-
-### Game Description
-
-Our 
-Screens:
-
-Start Screen: 
-
-Measure Pulse and Daily Mood Journal [Choose either]
-If Pulse>70 and less than 90 BPM, normal category screen pops up
-If Pulse<70 and > 90 BPM, non-normal category screen pops up
-Screen-3:Click on anxiety tracker and it takes you to pulse measuring screen 
-It will store all the pulse values for 1 minute, and give you the average pulse rate.
-Based on the difference of the 1st and last pulse of every 10 sec interval, and if the average of these differences is greater than 30, you are very anxious; if less than 30, you are not anxious.
-Pulse Screen
-Range of good Heart State: 70 BPM to 90 BPM
-Pulse screen:
-Non-normal category Screen:
-     a. Breathing Meditation[Download Audio Files From Online] b. Guided Meditation [Download Audio Files From Online] c. Affirmation [Download Audio Files From Online]
-           Normal Category Screen:
-     Always end the cycle with a hug from panda
-
-
-Daily Mood Journal: [Extra part]
-       
-    
-
+     a. Breathing Meditation[Download Audio Files From Online]
+     
+     b. Guided Meditation [Download Audio Files From Online] 
+     
+     c. Affirmation [Download Audio Files From Online]
+     
+8. Normal Category Screen: Always end the cycle with a hug from panda
 
 
    + __Screen 1:__  [Screen 1](https://youtu.be/-dmTamqtpMo)
@@ -116,11 +101,28 @@ Daily Mood Journal: [Extra part]
 
 
 
-
-### Game Algorithm Explanation:
-
+### Project Growth Phases:
 
 
+<img width="400" alt="tilee" src="https://github.com/maishahoq/Intro-to-IM/blob/main/Assignment/FinalProject/20220512_121226.jpg">
+
+
+<img width="400" alt="tilee" src="https://github.com/maishahoq/Intro-to-IM/blob/main/Assignment/FinalProject/20220512_121240.jpg">
+
+
+<img width="400" alt="tilee" src="https://github.com/maishahoq/Intro-to-IM/blob/main/Assignment/FinalProject/20220512_103312.jpg">
+
+
+**///stitching process///**
+
+to learn how to sitch, we followed [GitHub Pages](https://www.youtube.com/watch?v=K3fFHV6r9Ow) from Youtube. This video demonstrates an invisible stitiching method known as "ladder sititch." This was particularly helpful for beginners like us. After putting all the sensors inside, we made small cuts on the tips of the Panda's legs and hands. This way, we could get more accurate inputs from our sensors.
+
+
+**///Bag Pack Casing///**
+
+We also made a bag pack for the panda, which e believe is the smartest part of our project, w ehave the bag pack designed in a way to allow all the wires that need to be connected to our laptop can be taken in or out through the small whole at the bottom, and the bag hides the arduino casing and the pulse meter connection which we had borrowed from the librrary, s could not solder into anything since we had to return it.
+
+<img width="400" alt="tilee" src="https://github.com/maishahoq/Intro-to-IM/blob/main/Assignment/FinalProject/20220512_103325.jpg">
 
 
 
@@ -130,10 +132,14 @@ Daily Mood Journal: [Extra part]
 
 
 
+
+
 + Best Part of Code:
 
-         + Game Modification:   The user can change the change just by changing the values in some of the variables, this will modify the whole code without it breaking anywhere. Example, just changing the no of balls variable, changes the box numbers, places the balls in equal distances, changes the comparisons of positions etc. The values have been barely hardcoded.
+         + Game Modification:   The user can change the change just by changing the values in some of the variables, this will modify the whole code without it breaking anywhere. 
          
+
+
 
 ### Encountered Problems
 
@@ -181,27 +187,6 @@ Timer: [Timer using FrameCount](https://editor.p5js.org/marynotari/sketches/S1T2
 ### Questions:
 1. How to stop taking values from arduino?
 2. How to switch between multiple inputs from arduino?
-
-
-### Roadmap
-1. Get the 4 sensor data from Arduino
-2. The p5.js 1st screen changes to 2nd screen after 3s of starting the program (cuz it takes sometime for the pulse sensor to start taking correct values as input) .
-3. Click on Anxiety Tracker, it starts processing the data from pulse. But the data collection had started already when the program starts. This means that we give ample time for the pulse meter to stablize and start giving the p5.js correct data [decided from user testing].
-4. The pulse can be seen on the screen, in the yellow circular part
-5. It will store all the pulse values for 1 minute, and dislay you the average pulse rate.
-6. Based on the difference of the 1st and last pulse of every 10 sec interval, and if the average of these differences is greater than 30, you are very anxious; if less than 30, you are not anxious.
-7. If you are anxious, takes you to Non-normal category Screen:
      
-
-     a. Breathing Meditation[Download Audio Files From Online]
-     
-     b. Guided Meditation [Download Audio Files From Online] 
-     
-     c. Affirmation [Download Audio Files From Online]
-     
-8. Normal Category Screen: Always end the cycle with a hug from panda
- 
- 
-           
 
 
