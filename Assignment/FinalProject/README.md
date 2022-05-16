@@ -11,7 +11,11 @@ The P5JS Link: (__)(https://editor.p5js.org/maishahoq/sketches/2krDoMj8j)
 <img style="float:center;"  src="https://github.com/maishahoq/Intro-to-IM/blob/main/Assignment/FinalProject/IntroPics.jpg" alt="Inspiration" width="500"  /> 
 
 
+
+
 ***   
+
+
 
 
 ### Inspiration
@@ -20,6 +24,8 @@ The P5JS Link: (__)(https://editor.p5js.org/maishahoq/sketches/2krDoMj8j)
 
 We wanted to do something very meaningful for this project, something that might be a small endeavor, but something that adds meaning to the industrial products in the maret, because often times we have too many fun/cool gadgets in the market and we happen to forget an important part of our health that needs nurturing and maintenance as well as our physical health, which is our mental health.
 Bato recently had finishied a book which taked about the ways to tackle anxiety and they got us more hyped to do something on mental health, adding to the fact that it was near final season for us and we were already struggling with our mental health.
+
+
 
 
 
@@ -74,6 +80,12 @@ Helvetica, on the other hand, is neat and easy on the eyes, so we thought it was
 
 
 
+
+
+
+
+
+
 ### Project Roadmap and Game Description: 
 
 1. Get the 4 sensor data from Arduino
@@ -98,6 +110,12 @@ Helvetica, on the other hand, is neat and easy on the eyes, so we thought it was
    
    + __Game Play (If I Win):__       [Game Play (If I Win)](https://youtu.be/h-hNwFqHEBo)
    + __Game Play (If I Lose):__      [Game Play (If I Lose)](https://youtu.be/bYkFWa63nGk)
+
+
+
+
+
+
 
 
 
@@ -126,10 +144,98 @@ We also made a bag pack for the panda, which e believe is the smartest part of o
 
 
 
+<img width="400" alt="tilee" src="https://github.com/maishahoq/Intro-to-IM/blob/main/Assignment/FinalProject/20220513_191117.jpg
+">
+
+
+
+
+
+
+
 
 ### Code Snippets:
 
+````````````````````````````````````````````````````````````````````````````````````````````````````````````````
 
+/*  
+  ----------------What This Sketch is About------------------------------------------
+         Maisha and Bato's HAPPY PANDA Project
+  --------------------------------------------------------------------*/
+
+#define USE_ARDUINO_INTERRUPTS true    // Set-up low-level interrupts for most acurate BPM math.
+#include <PulseSensorPlayground.h>     // Includes the PulseSensorPlayground Library.   
+
+//  Variables
+const int PulseWire = A0;       // PulseSensor PURPLE WIRE connected to ANALOG PIN 0
+const int ForceWirea2 = A2;     // ForceSensor PURPLE WIRE connected to ANALOG PIN 2
+const int ForceWirea3 = A3;      // ForceSensor PURPLE WIRE connected to ANALOG PIN 3
+const int ForceWirea4 = A5;      // ForceSensor PURPLE WIRE connected to ANALOG PIN 4
+const int LED13 = 13;          // The on-board Arduino LED, close to PIN 13.
+int Threshold = 550;           // Determine which Signal to "count as a beat" and which to ignore.
+// Use the "Gettting Started Project" to fine-tune Threshold Value beyond default setting.
+// Otherwise leave the default "550" value.
+
+PulseSensorPlayground pulseSensor;  // Creates an instance of the PulseSensorPlayground object called "pulseSensor"
+
+
+void setup() {
+
+  Serial.begin(9600);          // For Serial Monitor
+  // Configure the PulseSensor object, by assigning our variables to it.
+  pulseSensor.analogInput(PulseWire);
+  pulseSensor.blinkOnPulse(LED13);       //auto-magically blink Arduino's LED with heartbeat.
+  pulseSensor.setThreshold(Threshold);
+
+  // Double-check the "pulseSensor" object was created and "began" seeing a signal.
+  if (pulseSensor.begin()) {
+    Serial.println("We created a pulseSensor Object !");  //This prints one time at Arduino power-up,  or on Arduino reset.
+  }
+
+}
+
+
+
+void loop() {
+
+  int myBPM = pulseSensor.getBeatsPerMinute();  // Calls function on our pulseSensor object that returns BPM as an "int".
+
+    // "myBPM" hold this BPM value now.
+
+     if (pulseSensor.sawStartOfBeat()) {            // Constantly test to see if "a beat happened".
+      Serial.print(myBPM);                        // Print the value inside of myBPM.
+      Serial.print(",");
+    }
+    else
+    {
+      //if there's no heartbeat, we still get a 0 as an output so that the p5.js can have the 1st data as pulse and store it in the pulse arr.
+      Serial.print(0);
+      Serial.print(",");
+
+    }
+    //read the first force sensor:
+    int sensorValue = analogRead(ForceWirea2);
+    // print the results:
+    Serial.print(sensorValue);
+    Serial.print(",");
+
+    // read the second force sensor:
+    sensorValue = analogRead(ForceWirea3);
+    // print the results:
+    Serial.print(sensorValue);
+    Serial.print(",");
+
+    // read the third force sensor:
+    sensorValue = analogRead(ForceWirea4);
+    // print the results:
+    Serial.println(sensorValue);
+
+    delay(1000);                    // considered best practice in a simple sketch.
+
+//  }
+}
+
+````````````````````````````````````````````````````````````````````````````````````````````````````````````````
 
 
 
@@ -189,4 +295,6 @@ Timer: [Timer using FrameCount](https://editor.p5js.org/marynotari/sketches/S1T2
 2. How to switch between multiple inputs from arduino?
      
 
+### Victory Picture after Interactive Media Showcase
 
+<img style="float:center;"  src="https://github.com/maishahoq/Intro-to-IM/blob/main/Assignment/FinalProject/20220512_160359.jpg" alt="Inspiration" width="500"  /> 
