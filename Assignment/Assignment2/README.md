@@ -1,9 +1,9 @@
                                                                 
- Simple Art Work Using Javascript                                                 
+                                                  
                                                          
                                                         
                                                         
-                                                        PATTERN IN ANIME INTRO
+                                                        Art Work Using Javascript: PATTERN IN ANIME INTRO
  ___
 
 ---
