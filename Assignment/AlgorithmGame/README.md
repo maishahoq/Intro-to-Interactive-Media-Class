@@ -1,4 +1,4 @@
-                                                       Algorithm Game
+                                                       Algorithm Game using Javascript
 
 
 ***     
