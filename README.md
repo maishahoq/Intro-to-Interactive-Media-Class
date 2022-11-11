@@ -1,7 +1,7 @@
 
 
-                                                       1. [Algorithm Game](https://github.com/maishahoq/Intro-to-Interactive-Media-Class/tree/main/Assignment/AlgorithmGame) - JavaScript (p5.js) 
-                                                       2. [Happy Panda Project](https://github.com/maishahoq/Intro-to-Interactive-Media-Class/tree/main/Assignment/FinalProject) - JavaScript (p5.js), Arduino (C++)
+1. [Algorithm Game](https://github.com/maishahoq/Intro-to-Interactive-Media-Class/tree/main/Assignment/AlgorithmGame) - JavaScript (p5.js) 
+2. [Happy Panda Project](https://github.com/maishahoq/Intro-to-Interactive-Media-Class/tree/main/Assignment/FinalProject) - JavaScript (p5.js), Arduino (C++)
 
 
 
