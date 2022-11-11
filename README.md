@@ -1,5 +1,5 @@
 
-SIDE FROM MULTIPLE SMALL PROJECTS, TWO MAIN PROJECTS WERE DONE IN THIS CLASS
+ASIDE FROM MULTIPLE SMALL PROJECTS, TWO MAIN PROJECTS WERE DONE IN THIS CLASS
 
 1. [Algorithm Game](https://github.com/maishahoq/Intro-to-Interactive-Media-Class/tree/main/Assignment/AlgorithmGame) - JavaScript (p5.js) 
 2. [Happy Panda Project](https://github.com/maishahoq/Intro-to-Interactive-Media-Class/tree/main/Assignment/FinalProject) - JavaScript (p5.js), Arduino (C++)
