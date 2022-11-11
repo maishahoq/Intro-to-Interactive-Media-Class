@@ -12,7 +12,7 @@
    
 
 
-<img style="float:center;"  src="https://github.com/maishahoq/Intro-to-IM/blob/main/Assignment/GameDevelopment/Gallery/pngtree-liquid-gold-with-rough-surface-texture-png-image_4355339.jpg" alt="Inspiration" width="300"  />  <img style="float:center;"  src="https://github.com/maishahoq/Intro-to-IM/blob/main/Assignment/GameDevelopment/Gallery/Screen%20Shot%202022-03-05%20at%2010.03.28%20AM.png" alt="Inspiration" width="300"  /> 
+<img style="float:center;"  src="https://github.com/maishahoq/Intro-to-IM/blob/main/Assignment/GameDevelopment/Gallery/pngtree-liquid-gold-with-rough-surface-texture-png-image_4355339.jpg" alt="Inspiration" width="300"  />  <img style="float:center;"  src="https://github.com/maishahoq/Intro-to-IM/blob/main/Assignment/GameDevelopment/Gallery/Screen%20Shot%202022-03-05%20at%2010.03.28%20AM.png" alt="Inspiration" width="400"  /> 
 
 
 
